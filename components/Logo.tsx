@@ -1,10 +1,6 @@
 import React from 'react';
-import { useLocale } from 'next-intl';
 
 export function Logo({ className = '' }: { className?: string }) {
-  const locale = useLocale();
-  const isFa = locale === 'fa';
-
   return (
     <div className={`flex items-center gap-2.5 group cursor-pointer ${className}`}>
       {/* SVG Mark */}
@@ -20,17 +16,10 @@ export function Logo({ className = '' }: { className?: string }) {
 
       {/* Wordmark */}
       <span className="font-display font-bold text-lg tracking-tight">
-        {isFa ? (
-          <span>
-            <span className="text-bone">تیون‌</span>
-            <span className="text-signal-lime">تاکتیکس</span>
-          </span>
-        ) : (
-          <span>
-            <span className="text-bone">Tune</span>
-            <span className="text-signal-lime">Tactics</span>
-          </span>
-        )}
+        <span>
+          <span className="text-bone">Tune</span>
+          <span className="text-signal-lime">Tactics</span>
+        </span>
       </span>
     </div>
   );

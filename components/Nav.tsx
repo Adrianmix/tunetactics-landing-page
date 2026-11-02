@@ -3,7 +3,6 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 import { Logo } from './Logo';
-import { LanguageSwitcher } from './LanguageSwitcher';
 
 export function Nav() {
   const t = useTranslations('nav');
@@ -22,12 +21,10 @@ export function Nav() {
         <Logo />
 
         <div className="flex items-center gap-4">
-          <LanguageSwitcher />
-
           <a
             href="#waitlist-form"
             onClick={scrollToWaitlist}
-            className="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-xl bg-signal-lime text-background font-display font-bold text-xs hover:opacity-90 transition-opacity shadow-lg"
+            className="inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-signal-lime text-background font-display font-bold text-xs hover:opacity-90 transition-opacity shadow-lg"
           >
             {t('join')}
           </a>
