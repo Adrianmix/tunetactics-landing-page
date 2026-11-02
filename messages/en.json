@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "title": "TuneTactics — Show your sound. Find your people.",
+    "description": "A community for producers and singers to showcase their work and find collaborators."
+  },
+  "nav": {
+    "join": "Join waitlist"
+  },
+  "hero": {
+    "headline": "Show your sound. Find your people.",
+    "subheadline": "A community for producers and singers to showcase their work and find collaborators.",
+    "cta": "Join the waitlist",
+    "trust": "Founding members get Pro free for life."
+  },
+  "problem": {
+    "heading": "Finding the right collaborator is broken.",
+    "body": "Social profiles don't show skill. DMs get buried. There's no place built for musicians to showcase work and actually connect."
+  },
+  "how": {
+    "heading": "How it works",
+    "steps": [
+      "Build a profile that shows your actual work — beats, vocals, reels.",
+      "Discover producers and singers by role, genre, and what they're looking for.",
+      "Connect and make something."
+    ]
+  },
+  "features": {
+    "profiles": {
+      "title": "Portfolio profiles",
+      "body": "Show your real work — embedded tracks, reels, skills, gear, and what you're looking for."
+    },
+    "discovery": {
+      "title": "Discovery that works",
+      "body": "Filter by role, genre, location, and collab intent. No more scrolling aimlessly."
+    },
+    "reels": {
+      "title": "Reels for musicians",
+      "body": "Post short clips — a beat, a vocal run, a WIP. Get replies from people who want to build on it."
+    },
+    "connect": {
+      "title": "Connect and message",
+      "body": "Skip the DMs that get buried. Reach the right people and start working."
+    }
+  },
+  "form": {
+    "heading": "Be a founding member.",
+    "body": "Join before launch and get Pro for life.",
+    "email": "Email",
+    "email_placeholder": "you@domain.com",
+    "role": "I'm a…",
+    "role_options": {
+      "producer": "Producer",
+      "singer": "Singer",
+      "songwriter": "Songwriter",
+      "other": "Other"
+    },
+    "looking": "I'm looking for…",
+    "looking_options": {
+      "collabs": "Collabs",
+      "feedback": "Feedback",
+      "paid_work": "Paid work",
+      "showcasing": "Just showcasing"
+    },
+    "submit": "Join the waitlist",
+    "submitting": "Joining…",
+    "success": "You're in. We'll email you when we launch.",
+    "error": "Something went wrong. Try again?",
+    "already": "You're already on the list."
+  },
+  "faq": {
+    "heading": "FAQ",
+    "items": [
+      {
+        "q": "Is it free?",
+        "a": "Yes. Core features are free forever. Pro adds optional power tools."
+      },
+      {
+        "q": "When does it launch?",
+        "a": "We're targeting a private beta in the coming months. Waitlist members get in first."
+      },
+      {
+        "q": "Do I upload files or link to existing platforms?",
+        "a": "At launch, you'll embed from SoundCloud, Spotify, YouTube, and Bandcamp. Native uploads come later."
+      },
+      {
+        "q": "Who is it for?",
+        "a": "Producers, singers, songwriters, and instrumentalists who want to collaborate — especially remotely."
+      },
+      {
+        "q": "How do you handle my data?",
+        "a": "We store your email and your signup answers only. No spam, no resale."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Show your sound. Find your people.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
+  },
+  "cta_final": {
+    "heading": "Show your sound. Find your people.",
+    "subheading": "Join the founding members before launch.",
+    "button": "Join the waitlist"
+  }
+}

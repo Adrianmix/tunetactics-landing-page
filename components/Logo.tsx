@@ -1,0 +1,37 @@
+import React from 'react';
+import { useLocale } from 'next-intl';
+
+export function Logo({ className = '' }: { className?: string }) {
+  const locale = useLocale();
+  const isFa = locale === 'fa';
+
+  return (
+    <div className={`flex items-center gap-2.5 group cursor-pointer ${className}`}>
+      {/* SVG Mark */}
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="transition-transform group-hover:scale-105">
+        <rect width="32" height="32" rx="8" fill="#141418" stroke="rgba(242, 237, 228, 0.1)" />
+        {/* Waveform / T shape bars */}
+        <rect x="7" y="10" width="4" height="12" rx="2" fill="#D4F24A" />
+        <rect x="14" y="6" width="4" height="20" rx="2" fill="#FF6B4A" />
+        <rect x="21" y="12" width="4" height="10" rx="2" fill="#5EEAD4" />
+        {/* Diagonal tactical cut slice */}
+        <line x1="5" y1="24" x2="27" y2="8" stroke="#0A0A0C" strokeWidth="2" strokeLinecap="round" />
+      </svg>
+
+      {/* Wordmark */}
+      <span className="font-display font-bold text-lg tracking-tight">
+        {isFa ? (
+          <span>
+            <span className="text-bone">تیون‌</span>
+            <span className="text-signal-lime">تاکتیکس</span>
+          </span>
+        ) : (
+          <span>
+            <span className="text-bone">Tune</span>
+            <span className="text-signal-lime">Tactics</span>
+          </span>
+        )}
+      </span>
+    </div>
+  );
+}
