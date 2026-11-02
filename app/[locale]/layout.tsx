@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from '../../i18n';
+import { Analytics } from "@vercel/analytics/next";
 import '../globals.css';
 
 const spaceGrotesk = Space_Grotesk({
@@ -35,6 +36,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
         'en': '/en',
       },
     },
+  
   };
 }
 
@@ -65,6 +67,7 @@ export default async function LocaleLayout({
           {children}
         </NextIntlClientProvider>
       </body>
+      <Analytics/>
     </html>
   );
 }
